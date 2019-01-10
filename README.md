@@ -1,7 +1,7 @@
 # CSharpInterviewPracticals
 Running code for some most asked in interview for C# Practicals
 
-## - ![#c5f015] In this Solution you can find some good and running C# codes which are mostly asked in interview practicals.
+## In this Solution you can find some good and running C# codes which are mostly asked in interview practicals.
 
 Please **Contribute** and more files in this repo with solution for any question you faced in Interview. Please update **dev Branch** and create pull request to merge.
 
@@ -43,3 +43,11 @@ Console.WriteLine(input.GetValue());
 Write a function that checks if a given word is a palindrome. Character case should be ignored.
 
 For example, IsPalindrome("Deleveled") should return true as character case should be ignored, resulting in "deleveled", which is a palindrome since it reads the same backward and forward.
+
+### 4. Print the below mention structure.
+
+```
+*****
+***
+*
+```
