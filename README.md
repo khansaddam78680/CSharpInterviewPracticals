@@ -12,10 +12,11 @@ Below is the list of **Question** Which i have covered. You can find the respect
 Write a function that, efficiently with respect to time used, checks if a given binary search tree contains a given value.
 
 For example, for the following tree:
-
+```
 n1 (Value: 1, Left: null, Right: null)
 n2 (Value: 2, Left: n1, Right: n3)
 n3 (Value: 3, Left: null, Right: null)
+```
 Call to Contains(n2, 3) should return true since a tree with root at n2 contains number 3.
 
 ### 2. User interface contains two types of user input controls: TextInput, which accepts all characters and NumericInput, which accepts only digits.
@@ -29,12 +30,13 @@ Implement the class NumericInput that:
 Inherits TextInput
 Overrides the Add method so that each non-numeric character is ignored
 For example, the following code should output "10":
-
+```
 TextInput input = new NumericInput();
 input.Add('1');
 input.Add('a');
 input.Add('0');
 Console.WriteLine(input.GetValue());
+```
 
 ### 3. A palindrome is a word that reads the same backward or forward.
 
