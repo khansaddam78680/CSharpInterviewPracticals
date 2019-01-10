@@ -1,7 +1,7 @@
 # CSharpInterviewPracticals
 Running code for some most asked in interview for C# Practicals
 
-- ![#c5f015] ## In this Solution you can find some good and running C# codes which are mostly asked in interview practicals.
+## - ![#c5f015] In this Solution you can find some good and running C# codes which are mostly asked in interview practicals.
 
 Please **Contribute** and more files in this repo with solution for any question you faced in Interview. Please update **dev Branch** and create pull request to merge.
 
