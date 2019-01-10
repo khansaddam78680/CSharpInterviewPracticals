@@ -26,6 +26,10 @@ namespace TestConsole
             BinarySearchTree.Node n2 = new BinarySearchTree.Node(2, n1, n3);
             Console.WriteLine(BinarySearchTree.Contains(n2, 3));
 
+            // Q.4 Print Star
+            StarPrint star = new StarPrint();
+            star.Print();
+
             Console.ReadKey();
         }
     }
