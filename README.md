@@ -51,3 +51,11 @@ For example, IsPalindrome("Deleveled") should return true as character case shou
 ***
 *
 ```
+
+### 5. Swap Numbers of 2 Integers without Creating any variable to store any value. Take the Inputs from the User And Print like Below.
+
+```
+Enter First No : 10
+Enter Second No : 20
+Print: Swapped No is 20 and 10
+```
