@@ -3,7 +3,7 @@ Running code for some most asked in interview for C# Practicals
 
 ## In this Solution you can find some good and running C# codes which are mostly asked in interview practicals.
 
-Please **Contribute** and more files in this repo with solution for any question you faced in Interview. Please update **dev Branch** and create pull request to merge.
+Please **Contribute** and add more files in this repo with solution for any question you faced in Interview. Please update **dev Branch** and create pull request to merge.
 
 Below is the list of **Question** Which i have covered. You can find the respective **File** by the keywords in the questions.
 
