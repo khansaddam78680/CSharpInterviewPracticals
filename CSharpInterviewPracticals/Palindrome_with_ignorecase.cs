@@ -5,9 +5,9 @@ using System.Text;
 
 namespace TestConsole
 {
-    public class Palindrome_with_ignorecase
+    public static class Palindrome_with_ignorecase
     {
-        public bool IsPalindrome(string word)
+        public static bool IsPalindrome(string word)
         {
             string palindrome = "";
             for (int i = word.Length - 1; i >= 0; i--) //String Reverse  
