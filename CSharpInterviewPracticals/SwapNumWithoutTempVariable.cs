@@ -13,7 +13,7 @@ namespace TestConsole
             firstNo = firstNo + secondNo;
             secondNo = firstNo - secondNo;
             firstNo = firstNo - secondNo;
-            Console.WriteLine("Swapped Frist No is {0} and Seconed No is {1}", firstNo, secondNo);
+            Console.WriteLine("Swapped Frist No is {0} and Second No is {1}", firstNo, secondNo);
         }
     }
 }
