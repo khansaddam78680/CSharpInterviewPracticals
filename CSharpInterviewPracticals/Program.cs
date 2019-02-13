@@ -53,6 +53,13 @@ namespace TestConsole
             Console.Write("Enter the Second No: ");
             int secondNo = Convert.ToInt32(Console.ReadLine());
             SwapNumWithoutTempVariable.SwapNumber(firstNo, secondNo);
+            
+            // Q.6 Program to duplicate string from the provided string
+            Console.WriteLine("---------------***********------------");
+            Console.WriteLine("6. rogram to duplicate string from the provided string");
+            Console.Write("Enter the String to Remove Duplicate: ");
+            string str5 = Console.ReadLine();
+            Console.WriteLine("The Result String is : {0}", RemoveDuplicateString.RemoveString(str5));
 
             Console.ReadKey();
         }
