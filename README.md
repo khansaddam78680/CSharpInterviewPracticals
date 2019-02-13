@@ -63,6 +63,6 @@ Print: Swapped No is 20 and 10
 ### 5. Write a Program or Create a function to remove the duplicate characters from the string. Take the input from the user and display result like Below
 
 ```
-Enter Enter the String to Remove Duplicate : Sleeping (any string in characters repeat themselves)
-Result Sholud be Like: The Result String is : Sleping
+Input Should be Like: Enter the String to Remove Duplicate : Sleeping (any string in characters repeat themselves)
+Result Should be Like: The Result String is : Sleping
 ```
