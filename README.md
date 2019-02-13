@@ -3,7 +3,7 @@ Running code for some most asked in interview for C# Practicals
 
 ## In this Solution you can find some good and running C# codes which are mostly asked in interview practicals.
 
-Please **Contribute** and more files in this repo with solution for any question you faced in Interview. Please update **dev Branch** and create pull request to merge.
+Please **Contribute** and add more files in this repo with solution for any question you faced in Interview. Please update **dev Branch** and create pull request to merge.
 
 Below is the list of **Question** Which i have covered. You can find the respective **File** by the keywords in the questions.
 
@@ -50,4 +50,12 @@ For example, IsPalindrome("Deleveled") should return true as character case shou
 *****
 ***
 *
+```
+
+### 5. Swap Numbers of 2 Integers without Creating any variable to store any value. Take the Inputs from the User And Print like Below.
+
+```
+Enter First No : 10
+Enter Second No : 20
+Print: Swapped No is 20 and 10
 ```

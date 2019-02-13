@@ -5,9 +5,9 @@ using System.Text;
 
 namespace TestConsole
 {
-    public class StarPrint
+    public static class StarPrint
     {
-        public void Print()
+        public static void Print()
         {
             int i, j;
 
