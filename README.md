@@ -59,3 +59,10 @@ Enter First No : 10
 Enter Second No : 20
 Print: Swapped No is 20 and 10
 ```
+
+### 5. Write a Program or Create a function to remove the duplicate characters from the string. Take the input from the user and display result like Below
+
+```
+Input Should be Like: Enter the String to Remove Duplicate : Sleeping (any string in characters repeat themselves)
+Result Should be Like: The Result String is : Sleping
+```
