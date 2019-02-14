@@ -74,7 +74,7 @@ Enter the Number to Check: 51
 Result: Provided Number is not Armstrong number
 ```
 
-### 8. Find the Factorial of the given number. I have described 3 ways of doing it.
+### 8. Find the Factorial of the given number. I have described 3 ways of doing it. You can find all 3 ways in the Program file.
 ```
 Enter the Number to Find Factorial: 4
 Result: The Factorial of 4 is 12
