@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Practice
+namespace TestConsole
 {
     /// <summary>
     /// Program to find substring of a given string.
