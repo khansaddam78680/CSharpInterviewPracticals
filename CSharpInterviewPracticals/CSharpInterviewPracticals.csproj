@@ -48,6 +48,8 @@
   <ItemGroup>
     <Compile Include="BinarySearchTree.cs" />
     <Compile Include="FactorialNo.cs" />
+    <Compile Include="FibonacciSeries.cs" />
+    <Compile Include="FindSubstring.cs" />
     <Compile Include="NumIsArmstrongOrNot.cs" />
     <Compile Include="Palindrome_with_ignorecase.cs" />
     <Compile Include="Program.cs" />
