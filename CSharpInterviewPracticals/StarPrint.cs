@@ -5,9 +5,15 @@ using System.Text;
 
 namespace TestConsole
 {
+    /// <summary>
+    /// Program to Print the Star Pattern.
+    /// </summary>
     public static class StarPrint
     {
-        public static void Print()
+        /// <summary>
+        /// This function prints the star pattern.
+        /// </summary>
+        public static void OddStarPrint()
         {
             int i, j;
 

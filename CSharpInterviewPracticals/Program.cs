@@ -43,23 +43,47 @@ namespace TestConsole
             // Q.4 Print Star
             Console.WriteLine("---------------***********------------");
             Console.WriteLine("4. Program to print star in Odd numbers");
-            StarPrint.Print();
+            StarPrint.OddStarPrint();
 
             // Q.5 Program to Swap Numbers Without Creating Temporary Variable
             Console.WriteLine("---------------***********------------");
             Console.WriteLine("5. Program to Swap Numbers Without Creating Temporary Variable");
             Console.Write("Enter the First No: ");
-            int firstNo=Convert.ToInt32(Console.ReadLine());
+            int firstNo = Convert.ToInt32(Console.ReadLine());
             Console.Write("Enter the Second No: ");
             int secondNo = Convert.ToInt32(Console.ReadLine());
             SwapNumWithoutTempVariable.SwapNumber(firstNo, secondNo);
-            
+
             // Q.6 Program to duplicate string from the provided string
             Console.WriteLine("---------------***********------------");
-            Console.WriteLine("6. rogram to duplicate string from the provided string");
+            Console.WriteLine("6. Program to duplicate string from the provided string");
             Console.Write("Enter the String to Remove Duplicate: ");
             string str5 = Console.ReadLine();
             Console.WriteLine("The Result String is : {0}", RemoveDuplicateString.RemoveString(str5));
+
+            // Q.7 Check Whether the Entered Number is an Armstrong or Not
+            Console.WriteLine("---------------***********------------");
+            Console.WriteLine("7. Program to Check Armstrong Number");
+            Console.Write("Enter the Number to Check: ");
+            int armNo = Convert.ToInt32(Console.ReadLine());
+            if (NumIsArmstrongOrNot.IsArmstrong(armNo))
+            {
+                Console.WriteLine("Provided Number is an Armstrong number");
+            }
+            else
+            {
+                Console.WriteLine("Provided Number is not Armstrong number");
+            }
+
+            // Q.8 Find Factorial of the given number
+            // We can find the factorial of a Number Using 3 different ways i.e. (Using For Loop, Using Recursion and Using While Loop)
+            Console.WriteLine("---------------***********------------");
+            Console.WriteLine("8. Program to find factorial of a number");
+            Console.Write("Enter the Number to Find Factorial: ");
+            int factorailNo = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("The Factorial of {0} is {1}", factorailNo, FactorialNo.ForLoop_Fact(factorailNo)); // Using For Loop
+            //Console.WriteLine("The Factorial of {0} is {1}", factorailNo, FactorialNo.WhileLoop_Fact(factorailNo)); // Using While Loop
+            //Console.WriteLine("The Factorial of {0} is {1}", factorailNo, FactorialNo.Recursive_Fact(factorailNo)); // Using Recursion
 
             Console.ReadKey();
         }

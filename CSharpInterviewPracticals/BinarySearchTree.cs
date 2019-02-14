@@ -5,6 +5,9 @@ using System.Text;
 
 namespace TestConsole
 {
+    /// <summary>
+    /// Program to check the binary Search Tree.
+    /// </summary>
     public class BinarySearchTree
     {
         public class Node
@@ -21,6 +24,12 @@ namespace TestConsole
             }
         }
 
+        /// <summary>
+        /// Searches for the result in binary tree.
+        /// </summary>
+        /// <param name="root"></param>
+        /// <param name="value"></param>
+        /// <returns>True/False</returns>
         public static bool Contains(Node root, int value)
         {
             if (root == null)
