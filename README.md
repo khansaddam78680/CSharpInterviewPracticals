@@ -79,3 +79,19 @@ Result: Provided Number is not Armstrong number
 Enter the Number to Find Factorial: 4
 Result: The Factorial of 4 is 12
 ```
+
+### 9. Program to find all the substring of a given input except the real string.
+```
+Enter the string: sms
+Result: 
+s
+m
+s
+sm
+ms
+```
+### 10. Display the Fibonacci Series length upto nth term which was input by user.
+```
+Enter the length of the Fibonacci Series: 8
+Result: 0 1 1 2 3 5 8 13
+```
