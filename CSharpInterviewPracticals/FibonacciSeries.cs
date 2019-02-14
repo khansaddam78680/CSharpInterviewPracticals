@@ -1,6 +1,6 @@
 using System;
 
-namespace Practice
+namespace TestConsole
 {
     /// <summary>
     /// Program to Display the fibonacci series upto user input.
