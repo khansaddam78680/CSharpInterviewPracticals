@@ -73,3 +73,9 @@ Result Should be Like: The Result String is : Sleping
 Enter the Number to Check: 51
 Result: Provided Number is not Armstrong number
 ```
+
+### 8. Find the Factorial of the given number. I have described 3 ways of doing it.
+```
+Enter the Number to Find Factorial: 4
+Result: The Factorial of 4 is 12
+```
