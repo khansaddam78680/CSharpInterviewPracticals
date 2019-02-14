@@ -108,7 +108,7 @@ namespace TestConsole
         /// <param name="no"></param>
         static void Question1(int no)
         {
-            Console.WriteLine("You Have Entered to Question No .{0}" + Environment.NewLine, no);
+            Console.WriteLine("You Have Entered to Program No .{0}" + Environment.NewLine, no);
             BinarySearchTree.Node n1 = new BinarySearchTree.Node(1, null, null);
             BinarySearchTree.Node n3 = new BinarySearchTree.Node(3, null, null);
             BinarySearchTree.Node n2 = new BinarySearchTree.Node(2, n1, n3);
@@ -122,7 +122,7 @@ namespace TestConsole
         /// <param name="no"></param>
         static void Question2(int no)
         {
-            Console.WriteLine("You Have Entered to Question No .{0}" + Environment.NewLine, no);
+            Console.WriteLine("You Have Entered to Program No .{0}" + Environment.NewLine, no);
             UserInput.TextInput input = new UserInput.NumericInput();
             input.Add('1');
             input.Add('a');
@@ -137,7 +137,7 @@ namespace TestConsole
         /// <param name="no"></param>
         static void Question3(int no)
         {
-            Console.WriteLine("You Have Entered to Question No .{0}" + Environment.NewLine, no);
+            Console.WriteLine("You Have Entered to Program No .{0}" + Environment.NewLine, no);
             Console.Write("Enter The String to Validate as Palindrome:");
             string str = Console.ReadLine();
             if (Palindrome_with_ignorecase.IsPalindrome(str))
@@ -157,7 +157,7 @@ namespace TestConsole
         /// <param name="no"></param>
         static void Question4(int no)
         {
-            Console.WriteLine("You Have Entered to Question No .{0}" + Environment.NewLine, no);
+            Console.WriteLine("You Have Entered to Program No .{0}" + Environment.NewLine, no);
             StarPrint.OddStarPrint();
             Console.ReadLine();
         }
@@ -168,7 +168,7 @@ namespace TestConsole
         /// <param name="no"></param>
         static void Question5(int no)
         {
-            Console.WriteLine("You Have Entered to Question No .{0}" + Environment.NewLine, no);
+            Console.WriteLine("You Have Entered to Program No .{0}" + Environment.NewLine, no);
             Console.Write("Enter the First No: ");
             int firstNo = 0;// Convert.ToInt32(Console.ReadLine());
             if (Int32.TryParse(Console.ReadLine(), out firstNo))
@@ -188,15 +188,6 @@ namespace TestConsole
             {
                 Console.WriteLine("Please Enter Numbers Only");
             }
-            //Console.Write("Enter the Second No: ");
-            //int secondNo = 0;// Convert.ToInt32(Console.ReadLine());
-            //if (Int32.TryParse(Console.ReadLine(), out secondNo))
-            //{
-            //}
-            //else
-            //{
-            //    Console.WriteLine("Please Enter Numbers Only");
-            //}
             Console.ReadLine();
         }
 
@@ -206,7 +197,7 @@ namespace TestConsole
         /// <param name="no"></param>
         static void Question6(int no)
         {
-            Console.WriteLine("You Have Entered to Question No .{0}" + Environment.NewLine, no);
+            Console.WriteLine("You Have Entered to Program No .{0}" + Environment.NewLine, no);
             Console.Write("Enter the String to Remove Duplicate: ");
             string str5 = Console.ReadLine();
             Console.WriteLine("The Result String is : {0}", RemoveDuplicateString.RemoveString(str5));
@@ -219,7 +210,7 @@ namespace TestConsole
         /// <param name="no"></param>
         static void Question7(int no)
         {
-            Console.WriteLine("You Have Entered to Question No .{0}" + Environment.NewLine, no);
+            Console.WriteLine("You Have Entered to Program No .{0}" + Environment.NewLine, no);
             Console.Write("Enter the Number to Check: ");
             int armNo = 0;// Convert.ToInt32(Console.ReadLine());
             if (Int32.TryParse(Console.ReadLine(), out armNo))
@@ -232,7 +223,6 @@ namespace TestConsole
                 {
                     Console.WriteLine("Provided Number is not Armstrong number");
                 }
-
             }
             else
             {
@@ -247,7 +237,7 @@ namespace TestConsole
         /// <param name="no"></param>
         static void Question8(int no)
         {
-            Console.WriteLine("You Have Entered to Question No .{0}" + Environment.NewLine, no);
+            Console.WriteLine("You Have Entered to Program No .{0}" + Environment.NewLine, no);
             Console.Write("Enter the Number to Find Factorial: ");
             int factorailNo = 0;// Convert.ToInt32(Console.ReadLine());
             if (Int32.TryParse(Console.ReadLine(), out factorailNo))
@@ -269,7 +259,7 @@ namespace TestConsole
         /// <param name="no"></param>
         static void Question9(int no)
         {
-            Console.WriteLine("You Have Entered to Question No .{0}" + Environment.NewLine, no);
+            Console.WriteLine("You Have Entered to Program No .{0}" + Environment.NewLine, no);
             Console.Write("Enter the string: ");
             string str = Console.ReadLine();
             var substr = FindSubstring.Substring(str);
@@ -286,20 +276,17 @@ namespace TestConsole
         /// <param name="no"></param>
         static void Question10(int no)
         {
-            Console.WriteLine("You Have Entered to Question No .{0}" + Environment.NewLine, no);
+            Console.WriteLine("You Have Entered to Program No .{0}" + Environment.NewLine, no);
             Console.Write("Enter the length of the Fibonacci Series: ");
             int input = 0;// Convert.ToInt32(Console.ReadLine());
             if (Int32.TryParse(Console.ReadLine(), out input))
             {
-                Console.WriteLine("The Factorial of {0} is {1}", input, FactorialNo.ForLoop_Fact(input)); // Using For Loop
-                //Console.WriteLine("The Factorial of {0} is {1}", input, FactorialNo.WhileLoop_Fact(input)); // Using While Loop
-                //Console.WriteLine("The Factorial of {0} is {1}", input, FactorialNo.Recursive_Fact(input)); // Using Recursion
+                FibonacciSeries.PrintSeries(input);
             }
             else
             {
                 Console.WriteLine("Please Enter Numbers Only");
             }
-            FibonacciSeries.PrintSeries(input);
             Console.ReadLine();
         }
 
