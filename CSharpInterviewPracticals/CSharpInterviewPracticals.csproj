@@ -47,9 +47,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BinarySearchTree.cs" />
+    <Compile Include="NumIsArmstrongOrNot.cs" />
     <Compile Include="Palindrome_with_ignorecase.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RemoveDuplicateString.cs" />
     <Compile Include="StarPrint.cs" />
     <Compile Include="SwapNumWithoutTempVariable.cs" />
     <Compile Include="UserInput.cs" />

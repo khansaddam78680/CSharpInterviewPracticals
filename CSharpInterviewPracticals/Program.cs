@@ -61,6 +61,20 @@ namespace TestConsole
             string str5 = Console.ReadLine();
             Console.WriteLine("The Result String is : {0}", RemoveDuplicateString.RemoveString(str5));
 
+            // Q.7 Check Whether the Entered Number is an Armstrong or Not
+            Console.WriteLine("---------------***********------------");
+            Console.WriteLine("7. Program to Check Armstrong Number");
+            Console.Write("Enter the Number to Check: ");
+            int armNo = Convert.ToInt32(Console.ReadLine());
+            if (NumIsArmstrongOrNot.IsArmstrong(armNo))
+            {
+                Console.WriteLine("Provided Number is an Armstrong number");
+            }
+            else
+            {
+                Console.WriteLine("Provided Number is not Armstrong number");
+            }
+
             Console.ReadKey();
         }
     }
