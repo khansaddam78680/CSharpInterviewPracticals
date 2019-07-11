@@ -118,6 +118,8 @@ namespace TestConsole
             BinarySearchTree.Node n3 = new BinarySearchTree.Node(3, null, null);
             BinarySearchTree.Node n2 = new BinarySearchTree.Node(2, n1, n3);
             Console.WriteLine(BinarySearchTree.Contains(n2, 3));
+            Console.WriteLine(Environment.NewLine);
+            Console.WriteLine("Press Enter for Main Menu");
             Console.ReadLine();
         }
 
@@ -133,6 +135,8 @@ namespace TestConsole
             input.Add('a');
             input.Add('0');
             Console.WriteLine(input.GetValue());
+            Console.WriteLine(Environment.NewLine);
+            Console.WriteLine("Press Enter for Main Menu");
             Console.ReadLine();
         }
 
@@ -153,6 +157,8 @@ namespace TestConsole
             {
                 Console.WriteLine("Provided String is not a Palindrome");
             }
+            Console.WriteLine(Environment.NewLine);
+            Console.WriteLine("Press Enter for Main Menu");
             Console.ReadLine();
         }
 
@@ -164,6 +170,8 @@ namespace TestConsole
         {
             Console.WriteLine("You Have Entered to Program No .{0}" + Environment.NewLine, no);
             StarPrint.OddStarPrint();
+            Console.WriteLine(Environment.NewLine);
+            Console.WriteLine("Press Enter for Main Menu");
             Console.ReadLine();
         }
 
@@ -193,6 +201,8 @@ namespace TestConsole
             {
                 Console.WriteLine("Please Enter Numbers Only");
             }
+            Console.WriteLine(Environment.NewLine);
+            Console.WriteLine("Press Enter for Main Menu");
             Console.ReadLine();
         }
 
@@ -206,6 +216,8 @@ namespace TestConsole
             Console.Write("Enter the String to Remove Duplicate: ");
             string str5 = Console.ReadLine();
             Console.WriteLine("The Result String is : {0}", RemoveDuplicateString.RemoveString(str5));
+            Console.WriteLine(Environment.NewLine);
+            Console.WriteLine("Press Enter for Main Menu");
             Console.ReadLine();
         }
 
@@ -233,6 +245,8 @@ namespace TestConsole
             {
                 Console.WriteLine("Please Enter Numbers Only");
             }
+            Console.WriteLine(Environment.NewLine);
+            Console.WriteLine("Press Enter for Main Menu");
             Console.ReadLine();
         }
 
@@ -255,6 +269,8 @@ namespace TestConsole
             {
                 Console.WriteLine("Please Enter Numbers Only");
             }
+            Console.WriteLine(Environment.NewLine);
+            Console.WriteLine("Press Enter for Main Menu");
             Console.ReadLine();
         }
 
@@ -272,6 +288,8 @@ namespace TestConsole
             {
                 Console.WriteLine(item);
             }
+            Console.WriteLine(Environment.NewLine);
+            Console.WriteLine("Press Enter for Main Menu");
             Console.ReadLine();
         }
 
@@ -292,6 +310,8 @@ namespace TestConsole
             {
                 Console.WriteLine("Please Enter Numbers Only");
             }
+            Console.WriteLine(Environment.NewLine);
+            Console.WriteLine("Press Enter for Main Menu");
             Console.ReadLine();
         }
 
@@ -387,8 +407,9 @@ namespace TestConsole
                     Console.WriteLine(Environment.NewLine);
                 }
             }
-
             EmiCalc.Calculate(Principal, Intrest, Years);
+            Console.WriteLine(Environment.NewLine);
+            Console.WriteLine("Press Enter for Main Menu");
             Console.ReadLine();
         }
 
