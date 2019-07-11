@@ -95,3 +95,13 @@ ms
 Enter the length of the Fibonacci Series: 8
 Result: 0 1 1 2 3 5 8 13
 ```
+### 11. Program to Calculate the EMI for the Loan amount.
+```
+Enter the principal amount of  Loan: (Loan Amount Taken)
+Enter the rate of intrest per year: (Intrest Rate)
+Enter the Loan period (In Year): (For how many Years)
+Result:
+Your EMI per Month is : (Emi Amount)
+Total Loan Amount Including Intrest : (Total Payable Amount With Intrest)
+The Intrest Amount against Loan Taken : (Total Intrest Paid against Amount Taken)
+```

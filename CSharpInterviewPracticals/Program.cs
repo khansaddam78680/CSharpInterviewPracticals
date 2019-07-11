@@ -50,11 +50,15 @@ namespace TestConsole
                 {
                     Question10(InputByUser);
                 }
-                else if (InputByUser > 11)
+                else if (InputByUser == 11)
+                {
+                    Question11(InputByUser);
+                }
+                else if (InputByUser > 12)
                 {
                     InvalidQuestionNo();
                 }
-            } while (InputByUser != 11);
+            } while (InputByUser != 12);
             Console.WriteLine("Please Wait !!!Exiting the Program...");
             System.Threading.Thread.Sleep(3000);
         }
@@ -87,7 +91,8 @@ namespace TestConsole
                 Console.WriteLine("8. Program to find the Factorial of the given number.");
                 Console.WriteLine("9. Program to Find all possible Substring from the user Input");
                 Console.WriteLine("10. Program to print Fibonacci Series upto nth term from the user Input");
-                Console.WriteLine("11. Exit the Program" + Environment.NewLine);
+                Console.WriteLine("11. Program to calculate EMI per month from the user Input");
+                Console.WriteLine("12. Exit the Program" + Environment.NewLine);
 
                 Console.Write("Enter The Question No: ");
                 int QuestionNo = 0;
@@ -291,12 +296,118 @@ namespace TestConsole
         }
 
         /// <summary>
+        /// This Function Executes Program No.11
+        /// </summary>
+        /// <param name="no"></param>
+        static void Question11(int no)
+        {
+            bool ValidInput = false;
+            Console.WriteLine("You Have Entered to Program No .{0}" + Environment.NewLine, no);
+            float Principal = 0; float Intrest = 0; float Years = 0;
+            while (!ValidInput)
+            {
+                Console.Write("Enter the principal amount of  Loan: ");
+
+                if (float.TryParse(Console.ReadLine(), out Principal))
+                {
+                    if (Principal <= 999)
+                    {
+                        Console.WriteLine("Please Enter Amount  greater than or equal to 1000");
+                        System.Threading.Thread.Sleep(1000);
+                        //ClearCurrentConsoleLine();
+                        Console.WriteLine(Environment.NewLine);
+                    }
+                    else
+                    {
+                        ValidInput = true;
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Please Enter Numbers Only");
+                    System.Threading.Thread.Sleep(1000);
+                    //ClearCurrentConsoleLine();
+                    Console.WriteLine(Environment.NewLine);
+                }
+            }
+            ValidInput = false;
+
+            while (!ValidInput)
+            {
+                Console.Write("Enter the rate of intrest per year: ");
+
+                if (float.TryParse(Console.ReadLine(), out Intrest))
+                {
+                    if (Intrest <= 0)
+                    {
+                        Console.WriteLine("Intrest rate should be greater than 0.");
+                        System.Threading.Thread.Sleep(1000);
+                        //ClearCurrentConsoleLine();
+                        Console.WriteLine(Environment.NewLine);
+                    }
+                    else
+                    {
+                        ValidInput = true;
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Please Enter Numbers Only");
+                    System.Threading.Thread.Sleep(1000);
+                    //ClearCurrentConsoleLine();
+                    Console.WriteLine(Environment.NewLine);
+                }
+            }
+
+            ValidInput = false;
+
+            while (!ValidInput)
+            {
+                Console.Write("Enter the Loan period (In Year): ");
+
+                if (float.TryParse(Console.ReadLine(), out Years))
+                {
+                    if (Years <= 0)
+                    {
+                        Console.WriteLine("Term Year should be greater than 0.");
+                        System.Threading.Thread.Sleep(1000);
+                        //ClearCurrentConsoleLine();
+                        Console.WriteLine(Environment.NewLine);
+                    }
+                    else
+                    {
+                        ValidInput = true;
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Please Enter Numbers Only");
+                    System.Threading.Thread.Sleep(1000);
+                    //ClearCurrentConsoleLine();
+                    Console.WriteLine(Environment.NewLine);
+                }
+            }
+
+            EmiCalc.Calculate(Principal, Intrest, Years);
+            Console.ReadLine();
+        }
+
+        /// <summary>
         /// Executes if user Enters invalid question number.
         /// </summary>
         static void InvalidQuestionNo()
         {
-            Console.WriteLine("Please enter Valid Question no or Press 3 to Exit" + Environment.NewLine + Environment.NewLine + "Press Enter");
+            Console.WriteLine("Please enter Valid Question no or Press 12 to Exit" + Environment.NewLine + Environment.NewLine + "Press Enter");
             Console.ReadLine();
         }
+
+        //public static void ClearCurrentConsoleLine()
+        //{
+        //    int currentLineCursor = Console.CursorTop -2;
+        //    Console.SetCursorPosition(0, Console.CursorTop -2);
+        //    Console.Write(new string(' ', Console.BufferWidth - 0));
+        //    Console.SetCursorPosition(0, currentLineCursor);
+        //}
+
     }
 }
